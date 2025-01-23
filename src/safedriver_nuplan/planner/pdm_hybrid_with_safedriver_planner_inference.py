@@ -47,7 +47,7 @@ from tuplan_garage.planning.simulation.planner.pdm_planner.utils.pdm_path import
 from safedriver_nuplan.planner.utils.pdm_report import (
     PDMPlannerReport,
 )
-from safedriver_nuplan.planner.planTF_planner_utils import load_checkpoint
+from safedriver_nuplan.planner.utils.planTF_planner_utils import load_checkpoint
 from safedriver_nuplan.planner.models.planTF.feature_builders.common.utils import rotate_round_z_axis
 import safedriver_nuplan.planner.models.safedriver as safe_driver
 from safedriver_nuplan.planner.utils.pdm_emergency_brake_safedriver import PDMEmergencyBrakeSafeDriver
